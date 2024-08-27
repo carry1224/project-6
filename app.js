@@ -10,7 +10,7 @@ formDom.addEventListener('submit',(e)=>{
   const value=inputDom.value
   if(!value){
     resultsDom.innerHTML=
-    '<div class="error">please enter valid search term></div>'
+    '<div class="error">please enter valid search term</div>'
     return
   }
   fetchPages(value)
